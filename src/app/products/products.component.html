@@ -1,0 +1,42 @@
+<!-- Start Hero Section -->
+<div class="hero">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-5">
+        <div class="intro-excerpt">
+          <h1>Shop</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <table class="table" >
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>PRICE</th>
+      <th>CHECKED</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of products ">
+      <td>{{product.id}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td>
+        <button (click)="handleCheckProduct(product)" class="btn btn-outline-success">
+          <i [class]="product.checked ? 'bi bi-check' : 'bi bi-circle'"></i>
+        </button>
+      </td>
+      <td>
+        <button type="button" (click)="handleDelete(product)" class="btn btn-outline-danger">
+          <i class="bi bi-trash"></i>
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
