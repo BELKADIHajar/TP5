@@ -1,10 +1,46 @@
 {
   "products": [
-    {"id":1, "name":"Chair","price":800,"checked":true},
-    { "id": 2, "name": "Wooden Chair", "price":800,"checked": true },
-    { "id": 3, "name": "Padded Chair","price":800, "checked": true },
-    { "id": 4, "name": "Office Chair","price":800, "checked": false },
-    { "id": 5, "name": "Folding Chair", "price":800,"checked": true },
-    { "id": 7, "name": "Your Chair", "price":800,"checked": false }
+    {
+      "id": 2,
+      "name": "Wooden Chair",
+      "price": 800,
+      "checked": false
+    },
+    {
+      "id": 3,
+      "name": "Padded Chair",
+      "price": 800,
+      "checked": false
+    },
+    {
+      "id": 4,
+      "name": "Office Chair",
+      "price": "145",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "name": "Folding Chair",
+      "price": 800,
+      "checked": true
+    },
+    {
+      "id": 7,
+      "name": "Your Chair",
+      "price": 800,
+      "checked": false
+    },
+    {
+      "name": "chaise",
+      "price": 7000,
+      "checked": false,
+      "id": 8
+    },
+    {
+      "name": "chaise",
+      "price": 7000,
+      "checked": true,
+      "id": 9
+    }
   ]
 }

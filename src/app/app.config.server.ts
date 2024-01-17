@@ -3,6 +3,7 @@ import { provideServerRendering } from '@angular/platform-server';
 import { appConfig } from './app.config';
 import {HttpClientModule} from "@angular/common/http";
 import {ProductService} from "./services/product.service";
+import {FormGroup} from "@angular/forms";
 
 const serverConfig: ApplicationConfig = {
   providers: [
